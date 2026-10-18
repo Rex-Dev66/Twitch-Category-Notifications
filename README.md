@@ -1,4 +1,4 @@
-# Linux Desktop Notifications for Pushbullet & Twitch: A Tutorial
+# Phone Notifications for Twitch Categories Using Pushbullet
 
 Oct 18, 2026 · @Rex
 

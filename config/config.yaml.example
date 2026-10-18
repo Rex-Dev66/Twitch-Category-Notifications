@@ -1,0 +1,23 @@
+# How often to query Twitch, in seconds (limit: 30 queries/minute per client)
+query-period: 3
+
+# From dev.twitch.tv/console/apps
+twitch-api-client-id: "YOUR_CLIENT_ID"
+twitch-api-client-secret: "YOUR_CLIENT_SECRET"
+
+# Streamer login names and the categories to notify about
+streamers:
+  "some_streamer":
+    include:
+      - "*"                 # any category...
+    exclude:
+      - "Just Chatting"     # ...except these
+      - "Special Events"
+
+# Optional: alert when any live stream in these categories has Drops enabled
+watch-drops:
+  - "GAME_NAME_ONE"
+  - "GAME_NAME_TWO"
+
+ignore-502-errors-one-shot: false
+ignore-502-errors-persistant: true

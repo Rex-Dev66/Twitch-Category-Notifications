@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Twitch Game Notify
+Path=/home/YOUR_USER/YOUR_FOLDER/twitch-game-notify
+Exec=/home/YOUR_USER/YOUR_FOLDER/twitch-game-notify/myenv/bin/python run_twitchgamenotify.py
+X-GNOME-Autostart-enabled=true
